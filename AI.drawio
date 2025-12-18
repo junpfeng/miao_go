@@ -244,6 +244,9 @@
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="单向无环，有父节点" vertex="1">
           <mxGeometry height="30" width="130" x="1900" y="750" as="geometry" />
         </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="采用关闭列表，防止重复搜索节点" vertex="1">
+          <mxGeometry height="30" width="200" x="1860" y="790" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
