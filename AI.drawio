@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="5584" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4549" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -409,15 +409,6 @@
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="其他状态" vertex="1">
           <mxGeometry height="30" width="60" x="-590" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="条件空间" vertex="1">
-          <mxGeometry height="60" width="120" x="-460" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="120" width="270" x="-600" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="状态空间" vertex="1">
-          <mxGeometry height="30" width="60" x="-590" y="80" as="geometry" />
-        </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-123" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="NaN" x="NaN" y="NaN" as="geometry" />
         </mxCell>
@@ -468,6 +459,15 @@
             <mxPoint x="-1630" y="520" as="sourcePoint" />
             <mxPoint x="-1470" y="520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-135" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="攻击状态、巡逻状态、休息状态" vertex="1">
+          <mxGeometry height="30" width="240" x="-550" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="生命值，供给制，武器等等" vertex="1">
+          <mxGeometry height="30" width="220" x="-2000" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="条件等于特征值向量区间" vertex="1">
+          <mxGeometry height="30" width="221" x="-1345.5" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
