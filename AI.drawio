@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="3563" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3910" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,13 +91,13 @@
             <mxPoint x="-400" y="427.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="状态1" vertex="1">
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="特征1" vertex="1">
           <mxGeometry height="30" width="60" x="-370" y="522.5" as="geometry" />
         </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="状态2" vertex="1">
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="特征2" vertex="1">
           <mxGeometry height="30" width="60" x="-640" y="247.5" as="geometry" />
         </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="状态3" vertex="1">
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="特征3" vertex="1">
           <mxGeometry height="30" width="60" x="-450" y="397.5" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="离散状态空间" vertex="1">
@@ -143,16 +143,13 @@
           <mxGeometry height="60" width="120" x="1290" y="510" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="610" width="580" x="-770" y="210" as="geometry" />
+          <mxGeometry height="610" width="520" x="-710" y="210" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="590" width="380" x="-1430" y="230" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="条件空间" vertex="1">
           <mxGeometry height="30" width="60" x="-1271" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="状态空间" vertex="1">
-          <mxGeometry height="30" width="60" x="-770" y="210" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-40" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -402,6 +399,24 @@
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="状态外部化，使用配置去存储所有状态，状态实例只存储当前状态" vertex="1">
           <mxGeometry height="250" width="400" x="-230" y="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-118" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-650" y="520" as="sourcePoint" />
+            <mxPoint x="-540" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="其他特征" vertex="1">
+          <mxGeometry height="30" width="60" x="-590" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="条件空间" vertex="1">
+          <mxGeometry height="60" width="120" x="-460" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="270" x="-600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="状态空间" vertex="1">
+          <mxGeometry height="30" width="60" x="-590" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
