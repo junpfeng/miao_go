@@ -388,6 +388,12 @@
             <mxPoint x="-1040.59" y="1840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-114" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="380" width="20" x="-650" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="传统的状态机，是预设了所有的状态，不过的AI决策状态机，所有的状态都是抽象的配置数据，状态的切换也是实时的计算，状态机本身不执行状态切换以为的工作。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;状态类包含了当前的状态空间和条件空间（状态空间的子集）&lt;/div&gt;&lt;div&gt;使用包括被动的tick驱动和主动的外部触发驱动状态切换。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;状态切换 = 条件满足+随机权重选择下一个状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330" width="500" x="-610" y="1850" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
