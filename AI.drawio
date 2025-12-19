@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="2598" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2733" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,8 +175,14 @@
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Closed状态列表" vertex="1">
           <mxGeometry height="60" width="120" x="130" y="930" as="geometry" />
         </mxCell>
-        <mxCell id="sEKQDzrOzFjxwYqZCUc9-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="还未进入过的状态" vertex="1">
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-92" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-91" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="由父节点遍历所有动作产生的新子节点集合" vertex="1">
           <mxGeometry height="60" width="120" x="330" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-94" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-93" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="已经进入过的状态" vertex="1">
           <mxGeometry height="60" width="120" x="330" y="930" as="geometry" />
@@ -246,6 +252,66 @@
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="采用关闭列表，防止重复搜索节点" vertex="1">
           <mxGeometry height="30" width="200" x="1860" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-71" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-88" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="当前节点" vertex="1">
+          <mxGeometry height="80" width="80" x="2140" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-73" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-70" parent="1" style="whiteSpace=wrap;html=1;" value="遍历所有行为" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-75" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-72" parent="1" style="whiteSpace=wrap;html=1;" value="对于满足条件的行为" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-77" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-74" parent="1" style="whiteSpace=wrap;html=1;" value="输出对应的新状态" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-79" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-76" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否已经存在于关闭列表" vertex="1">
+          <mxGeometry height="80" width="80" x="2140" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-84" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-78" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否已经存在于开放列表" vertex="1">
+          <mxGeometry height="80" width="80" x="2140" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-86" edge="1" parent="1" source="sEKQDzrOzFjxwYqZCUc9-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sEKQDzrOzFjxwYqZCUc9-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-82" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="比较新路径的到达改节点的代价" vertex="1">
+          <mxGeometry height="80" width="80" x="2140" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-85" parent="1" style="whiteSpace=wrap;html=1;" value="更新节点代价和父节点" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-87" parent="1" style="whiteSpace=wrap;html=1;" value="当前节点的所有动作执行结束后，加入关闭列表" vertex="1">
+          <mxGeometry height="60" width="120" x="2310" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达目标节点后" vertex="1">
+          <mxGeometry height="60" width="120" x="2220" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="其实就类似于BFS中，子节点队列" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="sEKQDzrOzFjxwYqZCUc9-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="其实就是父亲节点集合，避免反向重复遍历" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="930" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
