@@ -479,7 +479,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2qHWUim2_O0v1BdMXNGL" name="第 2 页">
-    <mxGraphModel dx="2237" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -523,7 +523,7 @@
           <mxGeometry height="190" width="290" x="140" y="920" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化" vertex="1">
-          <mxGeometry height="40" width="300" x="540" y="800" as="geometry" />
+          <mxGeometry height="40" width="490" x="540" y="800" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-18" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-17" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -547,28 +547,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="scene tick" vertex="1">
-          <mxGeometry height="60" width="120" x="630" y="1030" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-26" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="aidecsision update" vertex="1">
-          <mxGeometry height="60" width="120" x="630" y="1110" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-28" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-27" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="遍历npc" vertex="1">
-          <mxGeometry height="60" width="120" x="630" y="1200" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="1220" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-30" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取出ai decsision 组件" vertex="1">
-          <mxGeometry height="60" width="120" x="630" y="1290" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="1310" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新ai decsision&amp;nbsp;&lt;div&gt;状态机&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="630" y="1380" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-33" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="initialize" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="aidecision配置初始化" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="idle" vertex="1">
+          <mxGeometry height="60" width="120" x="980" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="dialogue" vertex="1">
+          <mxGeometry height="60" width="120" x="1230" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-38" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1110" y="1280" as="sourcePoint" />
+            <mxPoint x="1220" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="依靠json配置实现的状态切换，&lt;br&gt;json配置就是结构体，就是状态类，&lt;div&gt;状态类建立在json结构体上了。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="270" x="1030" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-40" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="1310" as="sourcePoint" />
+            <mxPoint x="1160" y="1390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
