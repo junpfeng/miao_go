@@ -479,7 +479,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2qHWUim2_O0v1BdMXNGL" name="第 2 页">
-    <mxGraphModel dx="1985" dy="1442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2337" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -580,25 +580,31 @@
           <mxGeometry height="60" width="120" x="910" y="950" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="idle" vertex="1">
-          <mxGeometry height="60" width="120" x="980" y="1250" as="geometry" />
+          <mxGeometry height="60" width="120" x="920" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="dialogue" vertex="1">
-          <mxGeometry height="60" width="120" x="1230" y="1250" as="geometry" />
+          <mxGeometry height="60" width="120" x="1170" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-38" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1110" y="1280" as="sourcePoint" />
-            <mxPoint x="1220" y="1280" as="targetPoint" />
+            <mxPoint x="1050" y="1090" as="sourcePoint" />
+            <mxPoint x="1160" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-42" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="依靠json配置实现的状态切换，&lt;br&gt;json配置就是结构体，就是状态类，&lt;div&gt;状态类建立在json结构体上了。&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="270" x="1030" y="1410" as="geometry" />
+          <mxGeometry height="180" width="270" x="970" y="1220" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-40" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1160" y="1310" as="sourcePoint" />
-            <mxPoint x="1160" y="1390" as="targetPoint" />
+            <mxPoint x="1100" y="1120" as="sourcePoint" />
+            <mxPoint x="1100" y="1200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-41" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="也就是说，实际的状态蕴含在json中" vertex="1">
+          <mxGeometry height="60" width="120" x="1045" y="1450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
