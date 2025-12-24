@@ -479,7 +479,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2qHWUim2_O0v1BdMXNGL" name="第 2 页">
-    <mxGraphModel dx="2344" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1275" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -629,20 +629,32 @@
         <mxCell id="dJd3rPqdm95UFy7084Ip-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="100" width="480" x="710" y="1620" as="geometry" />
         </mxCell>
-        <mxCell id="dJd3rPqdm95UFy7084Ip-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="创建结束后，只能通过 tick -&amp;gt;GetNextPlan 进入消费状态" vertex="1">
+        <mxCell id="dJd3rPqdm95UFy7084Ip-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通过tick驱动" vertex="1">
           <mxGeometry height="30" width="340" x="830" y="1980" as="geometry" />
         </mxCell>
-        <mxCell id="dJd3rPqdm95UFy7084Ip-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="消费结束后，等待外部调用update" vertex="1">
-          <mxGeometry height="30" width="200" x="890" y="1760" as="geometry" />
+        <mxCell id="dJd3rPqdm95UFy7084Ip-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里通过GetNextPlan，但是目前只有tick来驱动GetNextPlan" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="1770" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部command触发决策特征值改变" vertex="1">
-          <mxGeometry height="60" width="120" x="1510" y="1770" as="geometry" />
+          <mxGeometry height="60" width="120" x="1690" y="1600" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计划产生后，直接触发外部api" vertex="1">
-          <mxGeometry height="60" width="120" x="1510" y="1980" as="geometry" />
+          <mxGeometry height="60" width="120" x="1690" y="1680" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="system tick 比较日程表" vertex="1">
           <mxGeometry height="60" width="120" x="1510" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="也就是说，目前都是通过tick驱动" vertex="1">
+          <mxGeometry height="30" width="190" x="900" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="1880" as="sourcePoint" />
+            <mxPoint x="730" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="只有这个状态才能消费计划" vertex="1">
+          <mxGeometry height="30" width="150" x="510" y="1880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
