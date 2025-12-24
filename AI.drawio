@@ -674,6 +674,21 @@
             <mxPoint x="730" y="1680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-72" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-74" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle，待消费" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog 切换计划" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="2240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
