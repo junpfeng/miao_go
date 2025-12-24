@@ -656,6 +656,24 @@
         <mxCell id="dJd3rPqdm95UFy7084Ip-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="只有这个状态才能消费计划" vertex="1">
           <mxGeometry height="30" width="150" x="510" y="1880" as="geometry" />
         </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="只有这个状态才能设置新计划" vertex="1">
+          <mxGeometry height="30" width="170" x="1370" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-67" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1400" y="1880" as="sourcePoint" />
+            <mxPoint x="1270" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个状态设置初始计划" vertex="1">
+          <mxGeometry height="30" width="170" x="500" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-69" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-68" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="1730" as="sourcePoint" />
+            <mxPoint x="730" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
