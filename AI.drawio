@@ -717,10 +717,40 @@
           <mxGeometry height="60" width="120" x="1870" y="720" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对话状态" vertex="1">
-          <mxGeometry height="60" width="120" x="2230" y="280" as="geometry" />
+          <mxGeometry height="60" width="120" x="2260" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-89" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-88" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dJd3rPqdm95UFy7084Ip-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="室内外状态" vertex="1">
-          <mxGeometry height="60" width="120" x="2440" y="280" as="geometry" />
+          <mxGeometry height="60" width="120" x="2530" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-91" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-90" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="召唤后进入室外状态" vertex="1">
+          <mxGeometry height="60" width="120" x="2530" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-93" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-92" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="计时" vertex="1">
+          <mxGeometry height="60" width="120" x="2530" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-95" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-94" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对话暂停计时" vertex="1">
+          <mxGeometry height="60" width="120" x="2530" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-97" edge="1" parent="1" source="dJd3rPqdm95UFy7084Ip-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dJd3rPqdm95UFy7084Ip-96" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对话结束继续计时" vertex="1">
+          <mxGeometry height="60" width="120" x="2530" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="dJd3rPqdm95UFy7084Ip-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="超时返回室内状态" vertex="1">
+          <mxGeometry height="60" width="120" x="2530" y="755" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
