@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="4497" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4391" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -475,14 +475,53 @@
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;gssBrain&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;curPlan，即当前的状态，也是当前正在执行的计划&lt;div&gt;当前计划的执行步骤&lt;/div&gt;&lt;div&gt;条件管理器&lt;/div&gt;" vertex="1">
           <mxGeometry height="310" width="280" x="-2270" y="1690" as="geometry" />
         </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-16" edge="1" parent="1" source="rfwnftDhKo9Ud_3gI59s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SnjTJ21lfYUepFnUB5a5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rfwnftDhKo9Ud_3gI59s-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle in_building" vertex="1">
-          <mxGeometry height="60" width="120" x="160" y="1570" as="geometry" />
+          <mxGeometry height="60" width="120" x="220" y="1570" as="geometry" />
         </mxCell>
-        <mxCell id="rfwnftDhKo9Ud_3gI59s-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog outside" vertex="1">
-          <mxGeometry height="60" width="120" x="1260" y="1570" as="geometry" />
+        <mxCell id="rfwnftDhKo9Ud_3gI59s-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog outside&lt;div&gt;室外倒计时&lt;/div&gt;&lt;div&gt;室外倒计时暂停&lt;/div&gt;&lt;div&gt;室外倒计时暂停时间&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="1090" y="1566.75" as="geometry" />
         </mxCell>
-        <mxCell id="rfwnftDhKo9Ud_3gI59s-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle outside" vertex="1">
-          <mxGeometry height="60" width="120" x="720" y="1570" as="geometry" />
+        <mxCell id="rfwnftDhKo9Ud_3gI59s-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle outside&lt;div&gt;室外倒计时&lt;/div&gt;&lt;div&gt;室外倒计时暂停&lt;/div&gt;&lt;div&gt;室外倒计时暂停时间&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="690" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gssbrain&amp;nbsp;&lt;div&gt;只针对静态的各种属性值tick来决策&lt;/div&gt;&lt;div&gt;不能直接内部tick修改属性值&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56" width="240" x="645" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-4" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="客户端召唤请求" vertex="1">
+          <mxGeometry height="60" width="120" x="1534" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-6" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="修改feature" vertex="1">
+          <mxGeometry height="60" width="120" x="1534" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-8" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="决策器tick输出计划" vertex="1">
+          <mxGeometry height="60" width="120" x="1534" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="召唤" vertex="1">
+          <mxGeometry height="60" width="120" x="1534" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-13" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="feature request" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="1533.25" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-17" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rfwnftDhKo9Ud_3gI59s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="feature 坐标" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="1626.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
