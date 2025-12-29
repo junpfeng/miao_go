@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4497" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -410,7 +410,7 @@
           <mxGeometry height="30" width="60" x="-590" y="395" as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-123" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="NaN" x="NaN" y="NaN" as="geometry" />
+          <mxGeometry as="geometry" />
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-124" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -474,6 +474,15 @@
         </mxCell>
         <mxCell id="sEKQDzrOzFjxwYqZCUc9-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;gssBrain&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;curPlan，即当前的状态，也是当前正在执行的计划&lt;div&gt;当前计划的执行步骤&lt;/div&gt;&lt;div&gt;条件管理器&lt;/div&gt;" vertex="1">
           <mxGeometry height="310" width="280" x="-2270" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="rfwnftDhKo9Ud_3gI59s-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle in_building" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="rfwnftDhKo9Ud_3gI59s-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog outside" vertex="1">
+          <mxGeometry height="60" width="120" x="1260" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="rfwnftDhKo9Ud_3gI59s-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle outside" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="1570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
