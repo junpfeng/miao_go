@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="5848" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5677" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,7 +539,7 @@
           <mxGeometry height="60" width="120" x="1130" y="1680" as="geometry" />
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;feature_request&lt;/div&gt;feature_locate&lt;div&gt;feature_out_timeout&lt;/div&gt;&lt;div&gt;feature_dialog_timeout&lt;/div&gt;&lt;div&gt;feature_state&lt;/div&gt;&lt;div&gt;feature_pos&lt;/div&gt;&lt;div&gt;feature_rot&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="157" x="-170" y="2200" as="geometry" />
+          <mxGeometry height="230" width="157" x="-260" y="2460" as="geometry" />
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle in_building" vertex="1">
           <mxGeometry height="60" width="120" y="2590" as="geometry" />
