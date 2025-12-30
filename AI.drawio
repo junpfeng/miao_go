@@ -631,7 +631,7 @@
         <mxCell id="SnjTJ21lfYUepFnUB5a5-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog" vertex="1">
           <mxGeometry height="60" width="120" x="1910" y="2590" as="geometry" />
         </mxCell>
-        <mxCell id="SnjTJ21lfYUepFnUB5a5-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;设置携带的坐标&lt;/div&gt;" vertex="1">
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;设置携带的坐标&lt;/div&gt;&lt;div&gt;设置是否超时&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="120" x="1180" y="2410" as="geometry" />
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;设置携带的坐标&lt;/div&gt;" vertex="1">
