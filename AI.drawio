@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="3798" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5848" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -570,6 +570,51 @@
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="system 处理更新 OutFinishStamp OutPause OutPauseTime三个时间变量，&lt;div&gt;=============================================&lt;br&gt;&lt;div&gt;net_func三个请求：召唤：feature_request:false，携带位置和朝向&lt;/div&gt;&lt;div&gt;对话：feature_request:true，不携带位置和朝向&lt;/div&gt;&lt;div&gt;取消对话：feature_request:true，不携带位置和朝向&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="660" x="24" y="2810" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-44" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="create plan" vertex="1">
+          <mxGeometry height="60" width="120" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="enter wait_consume state" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-80" y="3040" as="sourcePoint" />
+            <mxPoint x="30" y="3040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tick" vertex="1">
+          <mxGeometry height="30" width="60" x="-60" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-51" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="get&amp;nbsp; plan" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="3150" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-53" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="get&amp;nbsp; plan" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="3150" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="enter wait_create" vertex="1">
+          <mxGeometry height="60" width="120" x="426.5" y="3150" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OnPlanCreated" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="3230" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="创建" vertex="1">
+          <mxGeometry height="30" width="60" x="-70" y="3075" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="获取" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="执行" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="3240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
