@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="5677" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3773" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -615,6 +615,45 @@
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="执行" vertex="1">
           <mxGeometry height="30" width="60" x="80" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="170" x="860" y="2460" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="home_idle" vertex="1">
+          <mxGeometry height="60" width="120" x="1180" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="idle" vertex="1">
+          <mxGeometry height="60" width="120" x="1420" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="move" vertex="1">
+          <mxGeometry height="60" width="120" x="1670" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog" vertex="1">
+          <mxGeometry height="60" width="120" x="1910" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;设置携带的坐标&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="1180" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;设置携带的坐标&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="1420" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="1670" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="1918" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部状态之日程切换：&lt;div&gt;StayInBuildiling&lt;/div&gt;&lt;div&gt;LocationBasedAction&lt;/div&gt;&lt;div&gt;MoveToBPointFormAPoint有两个，前往和返回&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="870" x="1180" y="2670" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部状态之请求：&lt;div&gt;敲门请求 传入黑板坐标&lt;/div&gt;&lt;div&gt;对话请求&lt;/div&gt;&lt;div&gt;结束对话请求&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="870" x="1180" y="2740" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="超时状态：&lt;div&gt;室内日程下，被喊出来后，计算超时返回室内，传入黑板坐标&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="870" x="1180" y="2810" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="其他外部状态：&lt;div&gt;移动到达目的点&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="870" x="1180" y="2845" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
