@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="4322" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3798" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -550,10 +550,10 @@
         <mxCell id="SnjTJ21lfYUepFnUB5a5-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dialog outside" vertex="1">
           <mxGeometry height="60" width="110" x="560" y="2590" as="geometry" />
         </mxCell>
-        <mxCell id="SnjTJ21lfYUepFnUB5a5-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_request:none&lt;div&gt;feature_locate:in_building&lt;/div&gt;&lt;div&gt;feature_out_timeout:false&lt;/div&gt;&lt;div&gt;feature_dialog_timeout:false&lt;/div&gt;&lt;div&gt;feature_state:idle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_request:none&lt;div&gt;feature_locate:in_building&lt;/div&gt;&lt;div&gt;feature_out_timeout:false&lt;/div&gt;&lt;div&gt;feature_dialog_timeout:false&lt;/div&gt;&lt;div&gt;feature_state:idle&lt;/div&gt;&lt;div&gt;位置和朝向&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" y="2450" as="geometry" />
         </mxCell>
-        <mxCell id="SnjTJ21lfYUepFnUB5a5-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_request:none&lt;div&gt;feature_locate:outside&lt;/div&gt;&lt;div&gt;feature_out_timeout:false&lt;/div&gt;&lt;div&gt;feature_dialog_timeout:false&lt;/div&gt;&lt;div&gt;feature_state:idle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_request:none&lt;div&gt;feature_locate:outside&lt;/div&gt;&lt;div&gt;feature_out_timeout:false&lt;/div&gt;&lt;div&gt;feature_dialog_timeout:false&lt;/div&gt;&lt;div&gt;feature_state:idle&lt;/div&gt;&lt;div&gt;位置和朝向&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" x="290" y="2450" as="geometry" />
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_request:none&lt;div&gt;feature_locate:outside&lt;/div&gt;&lt;div&gt;feature_out_timeout:false&lt;/div&gt;&lt;div&gt;feature_dialog_timeout:false&lt;/div&gt;&lt;div&gt;feature_state:dialog&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
@@ -562,14 +562,14 @@
         <mxCell id="SnjTJ21lfYUepFnUB5a5-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部状态：&lt;div&gt;schedulecomp.NpcOutState&lt;/div&gt;&lt;div&gt;NpcOutStateIn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" y="2670" as="geometry" />
         </mxCell>
-        <mxCell id="SnjTJ21lfYUepFnUB5a5-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部状态：&lt;div&gt;schedulecomp.NpcOutState&lt;/div&gt;&lt;div&gt;NpcOutStateOutIdle&lt;/div&gt;&lt;div&gt;OutFinishStamp&lt;/div&gt;&lt;div&gt;OutPause&lt;/div&gt;&lt;div&gt;OutPauseTime&lt;/div&gt;" vertex="1">
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部状态：&lt;div&gt;schedulecomp.NpcOutState&lt;/div&gt;&lt;div&gt;NpcOutStateOutIdle&lt;/div&gt;&lt;div&gt;OutFinishStamp&lt;/div&gt;&lt;div&gt;OutPause&lt;/div&gt;&lt;div&gt;OutPauseTime&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" x="294" y="2670" as="geometry" />
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部状态：&lt;div&gt;schedulecomp.NpcOutState&lt;/div&gt;&lt;div&gt;NpcOutStateOutIDialog&lt;/div&gt;&lt;div&gt;&lt;div&gt;OutFinishStamp&lt;/div&gt;&lt;div&gt;OutPause&lt;/div&gt;&lt;div&gt;OutPauseTime&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" x="560" y="2670" as="geometry" />
         </mxCell>
-        <mxCell id="SnjTJ21lfYUepFnUB5a5-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="system 处理 OutFinishStamp OutPause OutPauseTime三个时间变量" vertex="1">
-          <mxGeometry height="30" width="660" x="10" y="2840" as="geometry" />
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="system 处理更新 OutFinishStamp OutPause OutPauseTime三个时间变量，&lt;div&gt;=============================================&lt;br&gt;&lt;div&gt;net_func三个请求：召唤：feature_request:false，携带位置和朝向&lt;/div&gt;&lt;div&gt;对话：feature_request:true，不携带位置和朝向&lt;/div&gt;&lt;div&gt;取消对话：feature_request:true，不携带位置和朝向&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="660" x="24" y="2810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
