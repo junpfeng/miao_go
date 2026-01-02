@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="3773" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3600" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -640,7 +640,7 @@
         <mxCell id="SnjTJ21lfYUepFnUB5a5-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="120" x="1670" y="2410" as="geometry" />
         </mxCell>
-        <mxCell id="SnjTJ21lfYUepFnUB5a5-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature_dialog_req:false&lt;div&gt;feature_dialog_finish_req:false&lt;/div&gt;&lt;div&gt;feature_knock_req:false&lt;/div&gt;&lt;div&gt;暂停超时计时&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="120" x="1918" y="2410" as="geometry" />
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部状态之日程切换：&lt;div&gt;StayInBuildiling&lt;/div&gt;&lt;div&gt;LocationBasedAction&lt;/div&gt;&lt;div&gt;MoveToBPointFormAPoint有两个，前往和返回&lt;/div&gt;" vertex="1">
@@ -654,6 +654,51 @@
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="其他外部状态：&lt;div&gt;移动到达目的点&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="870" x="1180" y="2845" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-73" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="idle" vertex="1">
+          <mxGeometry height="60" width="120" x="1210" y="3045" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-75" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入对话&lt;div&gt;记录当前时间戳A，设置暂停&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="3045" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-77" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="对话" vertex="1">
+          <mxGeometry height="60" width="120" x="1610" y="3045" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="离开对话，&lt;div&gt;计算当前时间戳B和A的差C，结束暂停&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="3045" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move:&lt;div&gt;取出起点、终点以及key，计算路径，然后调用移动&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="3170" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-81" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="decision_component" vertex="1">
+          <mxGeometry height="60" width="120" x="-2430" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-83" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="agent" vertex="1">
+          <mxGeometry height="60" width="120" x="-2430" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-85" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-84" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gssbrain" vertex="1">
+          <mxGeometry height="60" width="120" x="-2430" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="feature" vertex="1">
+          <mxGeometry height="60" width="120" x="-2430" y="2680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
