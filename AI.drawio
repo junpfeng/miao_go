@@ -700,6 +700,15 @@
         <mxCell id="SnjTJ21lfYUepFnUB5a5-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="feature" vertex="1">
           <mxGeometry height="60" width="120" x="-2430" y="2680" as="geometry" />
         </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部协议请求" vertex="1">
+          <mxGeometry height="60" width="120" x="-2090" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内部决策tick" vertex="1">
+          <mxGeometry height="60" width="120" x="-2090" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内部感知tick" vertex="1">
+          <mxGeometry height="60" width="120" x="-2090" y="2670" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
