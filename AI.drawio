@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="7452" dy="2564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3264" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -708,6 +708,40 @@
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内部感知tick" vertex="1">
           <mxGeometry height="60" width="120" x="-2090" y="2670" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-91" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-90" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="会面" vertex="1">
+          <mxGeometry height="60" width="120" x="885" y="3540" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-93" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-92" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-95" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-94" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="驱动源" vertex="1">
+          <mxGeometry height="60" width="120" x="885" y="3680" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-96" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="3920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部修改（GM）会面ID" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="3800" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-97" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="3920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="定时对比是否进入会面时间" vertex="1">
+          <mxGeometry height="60" width="120" x="1080" y="3800" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获得特征：是否处于会面日程" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="3920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
