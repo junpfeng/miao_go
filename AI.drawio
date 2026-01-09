@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="9938" dy="3847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3604" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -742,6 +742,33 @@
         </mxCell>
         <mxCell id="SnjTJ21lfYUepFnUB5a5-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获得特征：是否处于会面日程" vertex="1">
           <mxGeometry height="60" width="120" x="900" y="3920" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-107" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部触发" vertex="1">
+          <mxGeometry height="60" width="120" x="-2440" y="3520" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-103" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="NPC标记目标" vertex="1">
+          <mxGeometry height="60" width="120" x="-2440" y="3680" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-105" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="定位目标位置和当前位置" vertex="1">
+          <mxGeometry height="60" width="120" x="-2440" y="3760" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="追踪" vertex="1">
+          <mxGeometry height="60" width="120" x="-2440" y="3850" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-108" edge="1" parent="1" source="SnjTJ21lfYUepFnUB5a5-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnjTJ21lfYUepFnUB5a5-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnjTJ21lfYUepFnUB5a5-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="状态转移，进入追击态" vertex="1">
+          <mxGeometry height="60" width="120" x="-2440" y="3600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
