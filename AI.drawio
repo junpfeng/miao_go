@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="3605" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4426" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -994,10 +994,140 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="视野系统&lt;div&gt;收集NPC视野数据&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-2319" y="6660" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2315" y="6530" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="警察系统&lt;div&gt;警戒和逮捕&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-1869" y="6660" as="geometry" />
+          <mxGeometry height="60" width="120" x="-1865" y="6530" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-56" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2255" y="6800.04" />
+              <mxPoint x="-1720" y="6800.04" />
+            </Array>
+            <mxPoint x="-2255.0434782608695" y="6930.04" as="sourcePoint" />
+            <mxPoint x="-1719.9999999999995" y="6930.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-57" connectable="0" parent="it13qV0rCSjrlyi4WaS6-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="成功捕获" vertex="1">
+          <mxGeometry relative="1" x="-0.0245" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-58" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-59" connectable="0" parent="it13qV0rCSjrlyi4WaS6-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="离开视野" vertex="1">
+          <mxGeometry relative="1" x="0.0494" as="geometry">
+            <mxPoint x="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-60" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="it13qV0rCSjrlyi4WaS6-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2255" y="6980" />
+              <mxPoint x="-1720" y="6980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-62" connectable="0" parent="it13qV0rCSjrlyi4WaS6-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="被其他警察捕获" vertex="1">
+          <mxGeometry relative="1" x="0.0128" y="3" as="geometry">
+            <mxPoint x="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="追击" vertex="1">
+          <mxGeometry height="60" width="120" x="-2315" y="6860" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="其他" vertex="1">
+          <mxGeometry height="60" width="120" x="-1780" y="6860" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-65" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通缉&lt;div&gt;追捕玩家的警察有视野&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="-945" y="6360" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-67" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通缉&lt;div&gt;所有警察都没有该玩家的视野&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="-945" y="6460" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-69" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-73" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="it13qV0rCSjrlyi4WaS6-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1080" y="6640" />
+              <mxPoint x="-1080" y="6490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通缉&lt;div&gt;五秒内所有警察都没有该玩家的视野&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="215" x="-960" y="6610" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-71" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-72" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="it13qV0rCSjrlyi4WaS6-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-600" y="6750" />
+              <mxPoint x="-600" y="6490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通缉&lt;div&gt;持续30秒，没有任何警察拥有该玩家的视野&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="215" x="-960" y="6710" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="解除通缉" vertex="1">
+          <mxGeometry height="60" width="215" x="-960" y="6814" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-76" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-75" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="玩家进入警察视野" vertex="1">
+          <mxGeometry height="60" width="120" x="-241.5" y="6320" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-78" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-91" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-90" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="积攒怀疑值" vertex="1">
+          <mxGeometry height="60" width="120" x="-241.5" y="6414" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-80" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-79" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="怀疑值积攒满了，&lt;div&gt;被通缉&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-340" y="6570" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-82" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-81" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-85" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-87" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="离开所有警察视野5秒" vertex="1">
+          <mxGeometry height="60" width="120" x="-340" y="6680" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="怀疑值衰减" vertex="1">
+          <mxGeometry height="60" width="120" x="-490" y="6920" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="持续30s" vertex="1">
+          <mxGeometry height="60" width="120" x="-340" y="6920" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="警察前往玩家最后追踪的位置" vertex="1">
+          <mxGeometry height="60" width="120" x="-170" y="6920" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="怀疑值没攒满，自然消退" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="6570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
