@@ -1115,7 +1115,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="离开所有警察视野5秒" vertex="1">
-          <mxGeometry height="60" width="120" x="-340" y="6680" as="geometry" />
+          <mxGeometry height="60" width="120" x="-340" y="6800" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="怀疑值衰减" vertex="1">
           <mxGeometry height="60" width="120" x="-490" y="6920" as="geometry" />
