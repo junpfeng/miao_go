@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="4299" dy="1235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3769" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1265,7 +1265,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-131" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="满怀疑值，追捕状态" vertex="1">
-          <mxGeometry height="58" width="120" x="680" y="6650" as="geometry" />
+          <mxGeometry height="58" width="120" x="1360" y="6618" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-134" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-133" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1274,16 +1274,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="非满怀疑值，待命状态" vertex="1">
-          <mxGeometry height="60" width="130" x="881.75" y="6648" as="geometry" />
+          <mxGeometry height="60" width="130" x="1561.75" y="6616" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-133" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="要么重新攒满怀疑值，追其他人" vertex="1">
-          <mxGeometry height="60" width="130" x="763.25" y="6812" as="geometry" />
+          <mxGeometry height="60" width="130" x="1443.25" y="6780" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-137" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="要么原地待命，等待玩家接触通缉" vertex="1">
-          <mxGeometry height="60" width="130" x="1001.75" y="6812" as="geometry" />
+          <mxGeometry height="60" width="130" x="1681.75" y="6780" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-139" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="无怀疑值，日程状态" vertex="1">
-          <mxGeometry height="60" width="120" x="1090" y="6650" as="geometry" />
+          <mxGeometry height="60" width="120" x="1770" y="6618" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-144" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-143" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1374,10 +1374,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-168" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="一旦被捕" vertex="1">
-          <mxGeometry height="60" width="120" x="1110" y="6933" as="geometry" />
+          <mxGeometry height="60" width="120" x="495" y="7590" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-169" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="清空所有被通缉数据，以及所有通缉该玩家的警察数据" vertex="1">
-          <mxGeometry height="60" width="120" x="1110" y="7032.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="495" y="7689.5" as="geometry" />
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通过被通缉列表中没有警察来判断没有进入任何警察的追捕范围" vertex="1">
           <mxGeometry height="60" width="177" x="355" y="7410" as="geometry" />
@@ -1387,6 +1387,33 @@
             <mxPoint x="545" y="7439.57" as="sourcePoint" />
             <mxPoint x="585" y="7439.57" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-175" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-174" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-179" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-173" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="警察系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1555" y="7110" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-177" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-176" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-174" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通过tick视野数据，来积攒怀疑值，抓捕玩家" vertex="1">
+          <mxGeometry height="35" width="300" x="1250" y="7215" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-176" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="抓捕玩家时，通知相应的玩家" vertex="1">
+          <mxGeometry height="35" width="300" x="1250" y="7282.5" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-181" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-180" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-178" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通过tick视野数据，来衰减怀疑值，放弃抓捕玩家" vertex="1">
+          <mxGeometry height="35" width="300" x="1681.75" y="7215" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-180" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="放弃抓捕玩家时，通知相应的玩家" vertex="1">
+          <mxGeometry height="35" width="300" x="1681.75" y="7282.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
