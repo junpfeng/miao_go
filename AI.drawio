@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="3769" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3824" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1414,6 +1414,36 @@
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-180" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="放弃抓捕玩家时，通知相应的玩家" vertex="1">
           <mxGeometry height="35" width="300" x="1681.75" y="7282.5" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-184" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-183" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="抓捕成功" vertex="1">
+          <mxGeometry height="60" width="120" x="1571.75" y="7370" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-186" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-185" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="遍历玩家身上的被通缉列表的警察NPC" vertex="1">
+          <mxGeometry height="60" width="120" x="1571.75" y="7470" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-188" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-187" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-185" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="清空所有警察对当前玩家的抓捕数据" vertex="1">
+          <mxGeometry height="60" width="120" x="1571.75" y="7568.5" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-187" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="状态切换" vertex="1">
+          <mxGeometry height="60" width="120" x="1571.75" y="7670" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-191" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-190" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-189" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入investigate" vertex="1">
+          <mxGeometry height="60" width="120" x="-2010" y="7300" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-190" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="寻路到一个固定点" vertex="1">
+          <mxGeometry height="60" width="120" x="-2010" y="7390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
