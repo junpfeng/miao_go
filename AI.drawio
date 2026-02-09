@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1" pages="2">
   <diagram name="第 1 页" id="ynUQDMGVfMCetmPTZtVj">
-    <mxGraphModel dx="3641" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4024" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1797,6 +1797,30 @@
         </mxCell>
         <mxCell id="it13qV0rCSjrlyi4WaS6-307" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="从根节点开始" vertex="1">
           <mxGeometry height="60" width="120" x="2440" y="8340" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-312" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-310" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-311" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-310" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="planName" vertex="1">
+          <mxGeometry height="60" width="120" x="2870" y="8465" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-311" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;OnEntry node.IBtNode // 进入时执行（一次性，可选）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Root&amp;nbsp; &amp;nbsp; node.IBtNode // 主逻辑节点（持续执行）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;OnExit&amp;nbsp; node.IBtNode // 退出时执行（一次性，可选）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="330" x="3030" y="8472.5" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-315" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-314" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-313" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="entityID" vertex="1">
+          <mxGeometry height="60" width="120" x="2870" y="8560" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-317" edge="1" parent="1" source="it13qV0rCSjrlyi4WaS6-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it13qV0rCSjrlyi4WaS6-316" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-314" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TreeInstance" vertex="1">
+          <mxGeometry height="60" width="120" x="3020" y="8560" as="geometry" />
+        </mxCell>
+        <mxCell id="it13qV0rCSjrlyi4WaS6-316" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;OnEntry&amp;nbsp; &amp;nbsp; &amp;nbsp;node.IBtNode&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 进入时执行（一次性，可选）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Root&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.IBtNode&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 主逻辑节点（持续执行）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;OnExit&amp;nbsp; &amp;nbsp; &amp;nbsp; node.IBtNode&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 退出时执行（一次性，可选）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="350" x="3160" y="8565" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
